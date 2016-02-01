@@ -217,7 +217,8 @@ def hCluster(points, linkage, numClusters, printHistory):
     print 'Final set of clusters:'
     print cS.toStr()
     return cS
-
+def ilker():
+    pass
 def test():
     points = buildCityPoints('cityTemps.txt', False)
     hCluster(points, Cluster.singleLinkageDist, 10, False)
